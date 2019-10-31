@@ -1,0 +1,23 @@
+python Assemblator6502_6510ByOpcode.py [filename with opcodes] [H or D] [Start]
+
+## [file name with opcodes]
+must be separated by a comma
+for example :
+
+120,30,16,10,45,189,56,123 decimals
+A9,93,48, A9,41, A2,00,20, D2 hexadecimal
+
+## [I have d]
+D If the input data is decimal
+H If the input data is hexadecimal
+
+## [Start]
+Hexadecimal starting address of the disassembled list
+
+[With hexadecimal opcodes]
+python Assemblator6502_6510ByOpcode.py asm6510_IN.txt H 600A
+
+[With decimal opcodes]
+python Assemblator6502_6510ByOpcode.py asm6510_IN.txt D 6000
+
+The listing will be placed in the file listato.txt

@@ -1,0 +1,151 @@
+69|ADC #$@|2
+65|ADC $@|2
+75|ADC $@,X|2
+6D|ADC $@&|3
+7D|ADC $@&,X|3
+79|ADC $@&,Y|3
+61|ADC ($@,X)|2
+71|ADC ($@),Y|2
+29|AND #$@|2
+25|AND $@|2
+35|AND $@,X|2
+2D|AND $@&|3
+3D|AND $@&,X|3
+39|AND $@&,Y|3
+21|AND ($@,X)|2
+31|AND ($@),Y|2
+0A|ASL A|1
+06|ASL $@|2
+16|ASL $@,X|2
+0E|ASL $@&|3
+1E|ASL $@&,X|3
+90|BCC $@|2
+B0|BCS $@|2
+F0|BEQ $@|2
+24|BIT $@|2
+2C|BIT $@&|3
+30|BMI $@|2
+D0|BNE $@|2
+10|BPL $@|2
+00|BRK|1
+50|BVC $@|2
+70|BVS $@|2
+18|CLC|1
+D8|CLD|1
+58|CLI|1
+B8|CLV|1
+C9|CMP #$@|2
+C5|CMP $@|2
+D5|CMP $@,X|2
+CD|CMP $@&|3
+DD|CMP $@&,X|3
+D9|CMP $@&,Y|3
+C1|CMP ($@,X)|2
+D1|CMP ($@),Y|2
+E0|CPX #$@|2
+E4|CPX $@|2
+EC|CPX $@&|3
+C0|CPY #$@|2
+C4|CPY $@|2
+CC|CPY $@&|3
+C6|DEC $@|2
+D6|DEC $@,X|2
+CE|DEC $@&|3
+DE|DEC $@&,X|3
+CA|DEX|1
+88|DEY|1
+49|EOR #$@|2
+45|EOR $@|2
+55|EOR $@,X|2
+4D|EOR $@&|3
+5D|EOR $@&,X|3
+59|EOR $@&,Y|3
+41|EOR ($@,X)|2
+51|EOR ($@),Y|2
+E6|INC $@|2
+F6|INC $@,X|2
+EE|INC $@&|3
+FE|INC $@&,X|3
+E8|INX|1
+C8|INY|1
+4C|JMP $@&|3
+6C|JMP ($@&)|3
+20|JSR $@&|3
+A9|LDA #$@|2
+A5|LDA $@|2
+B5|LDA $@,X|2
+AD|LDA $@&|3
+BD|LDA $@&,X|3
+B9|LDA $@&,Y|3
+A1|LDA ($@,X)|2
+B1|LDA ($@),Y|2
+A2|LDX #$@|2
+A6|LDX $@|2
+B6|LDX $@,Y|2
+AE|LDX $@&|3
+BE|LDX $@&,Y|3
+A0|LDY #$@|2
+A4|LDY $@|2
+B4|LDY $@,X|2
+AC|LDY $@&|3
+BC|LDY $@&,X|3
+4A|LSR A|1
+46|LSR $@|2
+56|LSR $@,X|2
+4E|LSR $@&|3
+5E|LSR $@&,X|3
+EA|NOP|1
+09|ORA #$@|2
+05|ORA $@|2
+15|ORA $@,X|2
+0D|ORA $@&|3
+1D|ORA $@&,X|3
+19|ORA $@&,Y|3
+01|ORA ($@,X)|2
+11|ORA ($@),Y|2
+48|PHA|1
+08|PHP|1
+68|PLA|1
+28|PLP|1
+2A|ROL A|1
+26|ROL $@|2
+36|ROL $@,X|2
+2E|ROL $@&|3
+3E|ROL $@&,X|3
+6A|ROR A|1
+66|ROR $@|2
+76|ROR $@,X|2
+6E|ROR $@&|3
+7E|ROR $@&,X|3
+40|RTI|1
+60|RTS|1
+E9|SBC #$@|2
+E5|SBC $@|2
+F5|SBC $@,X|2
+ED|SBC $@&|3
+FD|SBC $@&,X|3
+F9|SBC $@&,Y|3
+E1|SBC ($@,X)|2
+F1|SBC ($@),Y|2
+38|SEC|1
+F8|SED|1
+78|SEI|1
+85|STA $@|2
+95|STA $@,X|2
+8D|STA $@&|3
+9D|STA $@&,X|3
+99|STA $@&,Y|3
+81|STA ($@,X)|2
+91|STA ($@),Y|2
+86|STX $@|2
+96|STX $@,Y|2
+8E|STX $@&|3
+84|STY $@|2
+94|STY $@,X|2
+8C|STY $@&|3
+AA|TAX|1
+A8|TAY|1
+BA|TSX|1
+8A|TXA|1
+9A|TXS|1
+98|TYA|1
